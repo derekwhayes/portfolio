@@ -13,9 +13,13 @@
 /**************************/
 :root {
     --primary: #c5c8e7;
-    --secondary: gray;
-    --tertiary: darkgray;
+    --secondary: #EDF2F4;
+    --tertiary: black;
     --accent: #CC444B;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +27,7 @@ body {
     margin: 0;
     font-family: fira;
     font-size: 16px;
+    background-color: var(--secondary);
 }
 
 /**************************/
@@ -36,7 +41,6 @@ body {
 }
 
 .hi-txt {
-    color: var(--accent);
     font-size: 8rem;
     padding: 15% 15% 10%;
     font-weight: 400;
@@ -48,7 +52,6 @@ body {
     margin: 0;
     text-align: right;
     padding-right: 5%;
-    color: var(--accent);
 }
 
 .derek-txt {
@@ -63,7 +66,6 @@ body {
 
 .about-me-txt {
     font-size: 2rem;
-    color: var(--accent);
     margin: 0;
     text-align: center;
 }
@@ -113,7 +115,7 @@ body {
 
 .project-link-txt {
     margin: 0;
-    
+    color: var(--accent);
 }
 
 .github-anchor {
@@ -134,13 +136,14 @@ body {
 /**************************/
 
 .cta-section {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     padding: 5%;
 }
 
 .cta-txt {
     text-align: center;
-    margin-bottom: 10%
+    margin-bottom: 10%;
+    font-weight: 400;
 }
 
 .social-container {
