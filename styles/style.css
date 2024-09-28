@@ -36,6 +36,7 @@ header {
     padding: 6rem 3rem 2.2rem;
     font-weight: 400;
     margin: 0;
+    opacity: 0;
 }
 
 .my-name-txt {
@@ -43,6 +44,7 @@ header {
     margin: 0;
     padding: 0 2rem 0 6rem;
     color: var(--accent);
+    opacity: 0;
 }
 
 .derek-txt {
@@ -53,15 +55,19 @@ header {
     text-align: center;
     margin: 0;
     padding: 2.2rem 1.5rem;
+    opacity: 0;
 }
 
 .about-me-txt {
     font-size: 2rem;
     color: var(--accent);
     margin: 0;
+    opacity: 0;
+    text-align: center;
 }
 
 .down-arrow {
     padding: 2.2rem 10rem;
     width: 21rem;
+    opacity: 0;
 }

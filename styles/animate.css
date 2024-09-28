@@ -1,0 +1,21 @@
+.hi-txt {
+    animation: headerAnimation 3s ease 0s 1 forwards;
+}
+
+.my-name-txt {
+    animation: headerAnimation 3s ease 1.5s 1 forwards;
+}
+
+.derek-txt {
+    animation: headerAnimation 3s ease 2s 1 forwards;
+}
+
+.about-me-txt,
+.down-arrow {
+    animation: headerAnimation 3s ease 4s 1 forwards;
+}
+
+@keyframes headerAnimation {
+    0% { opacity: 0}
+    100% { opacity: 1 }
+}
