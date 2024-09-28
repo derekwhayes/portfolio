@@ -1,0 +1,67 @@
+/**************************/
+/*         FONTS          */
+/**************************/
+@font-face {
+    font-family: fira;
+    src: local(FiraSans-Regular);
+    src: url(../fonts/FiraSans-Regular.ttf);
+}
+
+
+/**************************/
+/*         COLORS         */
+/**************************/
+:root {
+    --primary: #FABC3F;
+    --secondary: #E85C0D;
+    --tertiary: #C7253E;
+    --accent: #821131;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: fira;
+}
+
+header {
+    height: 100vh;
+    background-color: var(--primary);
+}
+
+.hi-txt {
+    color: var(--accent);
+    font-size: 8rem;
+    padding: 6rem 3rem 2.2rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.my-name-txt {
+    font-size: 3.2rem;
+    margin: 0;
+    padding: 0 2rem 0 6rem;
+    color: var(--accent);
+}
+
+.derek-txt {
+    font-size: 6rem;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 1.7rem;
+    text-align: center;
+    margin: 0;
+    padding: 2.2rem 1.5rem;
+}
+
+.about-me-txt {
+    font-size: 2rem;
+    color: var(--accent);
+    margin: 0;
+}
+
+.down-arrow {
+    padding: 2.2rem 10rem;
+    width: 21rem;
+}
