@@ -10,12 +10,29 @@
     animation: headerAnimation 3s ease 2s 1 forwards;
 }
 
-.about-me-txt,
-.down-arrow {
+.about-me-txt {
     animation: headerAnimation 3s ease 4s 1 forwards;
 }
 
+.down-arrow {
+    animation: headerAnimation 3s ease 4s 1 forwards,
+               pulseAnimation 2s ease 7s infinite forwards;
+}
+
 @keyframes headerAnimation {
-    0% { opacity: 0}
-    100% { opacity: 1 }
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes pulseAnimation {
+    100% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0.5
+    }
 }
