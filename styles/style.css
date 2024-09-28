@@ -22,7 +22,12 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: fira;
+    font-size: 16px;
 }
+
+/**************************/
+/*         HERO           */
+/**************************/
 
 .hero-section {
     width: 100%;
@@ -74,6 +79,10 @@ body {
     margin: 0 auto;
     /* opacity: 0; */
 }
+
+/**************************/
+/*          MAIN          */
+/**************************/
 
 main {
     width: 100%;
