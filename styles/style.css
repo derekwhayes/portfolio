@@ -222,14 +222,12 @@ body {
     }
 
     .cta-section {
-        background-color: var(--primary);
-        padding: 5%;
+        padding: 5% 15%;
     }
     
     .cta-txt {
-        text-align: center;
+        font-size: 1.5rem;
         margin-bottom: 10%;
-        font-weight: 400;
     }
     
     .social-container {
@@ -240,6 +238,6 @@ body {
     }
     
     .social-img {
-        height: 40px;
+        height: 100px;
     }
 }
