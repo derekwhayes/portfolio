@@ -16,16 +16,20 @@
 .heading {
     font-size: 1.2rem;
     width: 95%;
-    margin: 5% auto;
+    margin: 10% auto;
     font-weight: 400;
 }
 
 .vacation-cards-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 5%;
 }
 
+.vacation-card {
+    margin: 0 0 10% 0;
+}
 .card-img {
     width: 100%;
 }
@@ -36,6 +40,7 @@
 }
 
 .access-container {
+    border-top: 1rem solid var(--accent);
     background-color: var(--primary);
     padding: 5%;
 }
@@ -50,11 +55,11 @@
     }
 
     .banner-txt {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     .heading {
-        font-size: 2.2rem;
+        font-size: 1.7rem;
         width: 95%;
         margin: 5% auto;
         text-align: center;
@@ -63,15 +68,20 @@
     .vacation-cards-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 5% 10%;
+        gap: 0 10%;
         margin: 0 25%;
     }
 
     .card-txt {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     .landscape {
         grid-column-start: 2 span;
+    }
+
+    .access-container {
+        padding: 5% 30%;
+        font-size: 1.5rem;
     }
 }
