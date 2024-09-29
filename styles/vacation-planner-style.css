@@ -3,9 +3,19 @@
     background: url(../images/vacation-planner/vp-banner.png);
     background-repeat: no-repeat;
     text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
     font-family: dancing-script;
+}
+
+.heading {
+    font-size: 1.2rem;
+    width: 95%;
+    margin: 5% auto;
+    font-weight: 400;
+}
+
+.banner-txt {
+    margin: 0;
+    font-size: 3rem;
 }
 
 .vacation-cards-container {
@@ -19,6 +29,15 @@
 }
 
 .card-txt {
-    width: 85%;
+    width: 95%;
     margin: 3% auto;
+}
+
+.access-container {
+    background-color: var(--primary);
+    padding: 5%;
+}
+
+.social-container {
+    padding-top: 3%;
 }
