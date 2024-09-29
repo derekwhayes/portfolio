@@ -1,0 +1,9 @@
+.banner {
+    width: 100%;
+    background: url(../images/vacation-planner/vp-banner.png);
+    text-align: center;
+    font-size: 2rem;
+    padding: 5% 0;
+    font-weight: 700;
+    
+}
