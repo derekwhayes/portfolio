@@ -37,7 +37,9 @@ body {
 .hero-section {
     width: 100%;
     height: 100vh;
+    color: white;
     background-color: var(--primary);
+    background-image: url("../images/nick-design-unsplash.jpg");
 }
 
 .hi-txt {
@@ -62,6 +64,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 10% 0;
+    color: var(--primary);
 }
 
 .about-me-txt {
@@ -155,4 +158,87 @@ body {
 
 .social-img {
     height: 40px;
+}
+
+/**************************/
+/*     MEDIA QUERIES      */
+/**************************/
+
+@media (min-width: 525px) {
+    .hi-txt {
+        font-size: 10rem;
+        padding: 2% 25% 0%;
+        line-height: 8rem;
+    }
+
+    .my-name-txt {
+        font-size: 5.2rem;
+        padding-right: 25%;
+        text-shadow: 0 0 2rem black;
+    }
+    
+    .derek-txt {
+        font-size: 12rem;
+        letter-spacing: 1.7rem;
+        padding: 0;
+    }
+    
+    .about-me-txt {
+        padding-top: 2%;
+        font-size: 2.5rem;
+        text-shadow: 0 0 2rem black;
+    }
+    
+    .down-arrow {
+        width: 10%;
+        margin: 3% auto;
+    }
+
+    .project-wrapper {
+        width: 90%;
+        height: 30vh;
+        margin: 10% auto;
+        overflow: hidden;
+        box-shadow: 0 0 1rem black;
+    }
+    
+    .calcubuddy {
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/calcubuddy.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: transform 1s;
+    }
+    
+    .link-github-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .project-link {
+        text-decoration: none;
+        color: var(--secondary); 
+        justify-self: right;
+    }
+    
+    .project-link-txt {
+        margin: 0;
+        color: var(--accent);
+    }
+    
+    .github-anchor {
+        display: flex;
+    }
+    
+    .github-icon {
+        width: 20%;
+        margin: 0 auto;
+    }
+    
+    .description {
+        margin: 5% 5%;
+    }
 }
