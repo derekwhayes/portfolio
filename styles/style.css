@@ -130,7 +130,12 @@ body {
 .project-link {
     text-decoration: none;
     color: var(--secondary); 
-    justify-self: right;
+    justify-self: left;
+    margin-left: 7.5%;
+}
+
+.project-link-txt:hover {
+    color: var(--primary);
 }
 
 .project-link-txt {
@@ -214,6 +219,10 @@ body {
         margin: 3% auto;
     }
 
+    main {
+        margin: 5%;
+    }
+
     .calcubuddy-wrapper {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
@@ -245,10 +254,11 @@ body {
         grid-template-columns: 1.5fr 1fr;
         gap: 0%;
         order: 1;
+        margin-left: 5%;
     }
     
     .project-link-txt {
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: right;
     }
     
