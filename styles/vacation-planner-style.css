@@ -1,9 +1,24 @@
 .banner {
     width: 100%;
     background: url(../images/vacation-planner/vp-banner.png);
+    background-repeat: no-repeat;
     text-align: center;
-    font-size: 2rem;
-    padding: 5% 0;
+    font-size: 3rem;
     font-weight: 700;
-    
+    font-family: dancing-script;
+}
+
+.vacation-cards-container {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-txt {
+    width: 85%;
+    margin: 3% auto;
 }

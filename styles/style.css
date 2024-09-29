@@ -7,6 +7,12 @@
     src: url(../fonts/FiraSans-Regular.ttf);
 }
 
+@font-face {
+    font-family: dancing-script;
+    src: local(DancingScript-Bold);
+    src: url(../fonts/DancingScript-Bold.ttf);
+}
+
 
 /**************************/
 /*         COLORS         */
