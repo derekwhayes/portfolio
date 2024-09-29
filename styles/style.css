@@ -104,6 +104,17 @@ body {
     transition: transform 1s;
 }
 
+.vacation-planner {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/vacation-planner/vp-landscape.png");
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 1s;
+}
+
 .link-github-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -119,6 +130,7 @@ body {
 .project-link-txt {
     margin: 0;
     color: var(--accent);
+    text-align: center;
 }
 
 .github-anchor {
@@ -134,12 +146,14 @@ body {
     margin: 5% 5%;
 }
 
+
 /**************************/
 /*          CTA           */
 /**************************/
 
 .cta-section {
     background-color: var(--primary);
+    border-top: 1rem solid var(--accent);
     padding: 5%;
 }
 
@@ -194,11 +208,16 @@ body {
         margin: 3% auto;
     }
 
-    main {
+    .calcubuddy-wrapper {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
     }
-
+    
+    .vacation-planner-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+    }
+    
     .project-wrapper {
         height: 60vh;
         margin: 10% 5%;
@@ -207,12 +226,19 @@ body {
     
     .link-github-wrapper {
         display: grid;
+        gap: 10%;
         grid-template-columns: 1fr 1fr;
         align-items: center;
+    }
+
+    .vacation-link-github-wrapper {
+        grid-template-columns: 1.5fr 1fr;
+        gap: 0%;
     }
     
     .project-link-txt {
         font-size: 4rem;
+        text-align: right;
     }
     
     .description {
@@ -222,11 +248,11 @@ body {
     }
 
     .cta-section {
-        padding: 5% 15%;
+        padding: 5% 30%;
     }
     
     .cta-txt {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         margin-bottom: 10%;
     }
     
@@ -240,4 +266,5 @@ body {
     .social-img {
         height: 100px;
     }
+
 }
