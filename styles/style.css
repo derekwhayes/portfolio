@@ -125,6 +125,10 @@ body {
     background-image: url("../images/my-robot-shop.png");
 }
 
+.done {
+    background-image: url("../images/todo.png");
+}
+
 .link-github-wrapper {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
