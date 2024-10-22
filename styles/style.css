@@ -125,10 +125,10 @@ body {
     background-image: url("../images/my-robot-shop.png");
 }
 
-.done {
-    background-image: url("../images/todo.png");
+.doneDiv {
     width: 100%;
     height: 100%;
+    background-image: url("../images/todo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
